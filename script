@@ -1,0 +1,3 @@
+brew install ansible
+
+ansible-galaxy collection install infoblox.nios_modules
