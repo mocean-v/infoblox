@@ -1,6 +1,8 @@
 ---
-
-- hosts: localhost
+- name: Create new network
+  hosts: nios
+  
+- hosts: nios
   vars:
     nios_provider:
       host: 192.168.201.151
